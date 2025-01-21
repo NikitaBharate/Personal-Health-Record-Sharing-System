@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+        body {
+            background-image: url('https://www.hahchospital.com/wp-content/themes/hahc/images/mob-internal-banner.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-container {
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+        
+        .options {
+            text-align: center;
+            margin-top: 15px;
+        }
+        .options a {
+            color: #007bff;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .options a:hover {
+            text-decoration: underline;
+        }
+        .signup-option {
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
+    
